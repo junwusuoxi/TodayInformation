@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fac_main"
+            android:id="@+id/fac_main_home"
             android:layout_gravity="bottom|right"
             android:layout_marginBottom="@dimen/dp_40"
             android:layout_marginRight="@dimen/dp_40"
@@ -43,6 +43,26 @@
                 android:id="@+id/rb_main_hangzhou"
                 android:drawableTop="@drawable/selector_main_top_hangzhou"
                 android:text="@string/str_main_hangzhou"
+                style="@style/main_tab_rb_style" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_main_bottom"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rb_main_beijing"
+                android:drawableTop="@drawable/selector_main_buttom_tab_beijing"
+                android:text="@string/str_beijing"
+                style="@style/main_tab_rb_style" />
+            <RadioButton
+                android:id="@+id/rb_main_shenzhen"
+                android:drawableTop="@drawable/selector_main_buttom_tab_shenzhen"
+                android:text="@string/str_shenzhen"
                 style="@style/main_tab_rb_style" />
 
         </RadioGroup>
