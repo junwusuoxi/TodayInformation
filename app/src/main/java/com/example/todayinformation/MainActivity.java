@@ -38,10 +38,8 @@ public class MainActivity extends BaseActivity {
     private boolean isChangeTopOrButtom;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void afterBindView() {
         changAnima(rgMainBottom, rgMainTop);
-
     }
 
     @OnClick(R.id.fac_main_home)
