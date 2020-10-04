@@ -1,4 +1,8 @@
-package com.example.todayinformation.mvp;
+package com.example.todayinformation.splash;
+
+import com.example.todayinformation.mvp.ILifeCircle;
+import com.example.todayinformation.mvp.IMvpView;
+import com.example.todayinformation.mvp.MvpControler;
 
 public interface ISplashActivityContract {
 

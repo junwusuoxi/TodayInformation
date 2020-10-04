@@ -1,16 +1,15 @@
-package com.example.todayinformation;
+package com.example.todayinformation.splash;
 
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.todayinformation.mvp.ISplashActivityContract;
+import com.example.todayinformation.base.BaseActivity;
+import com.example.todayinformation.main.MainActivity;
+import com.example.todayinformation.R;
+import com.example.todayinformation.base.ViewInject;
 
 import java.io.File;
 
